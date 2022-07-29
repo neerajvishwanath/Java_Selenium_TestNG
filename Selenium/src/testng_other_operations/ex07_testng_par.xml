@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+	<test name="Test" parallel="methods">
+		<classes>
+			<class name="testng_other_operations.Ex07_02_TestExecution"/>
+      		<class name="testng_other_operations.Ex07_01_TestExecution"/>
+		</classes>
+	</test>
+</suite>
